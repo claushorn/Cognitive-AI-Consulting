@@ -33,7 +33,7 @@ const HeroSection = () => {
 
       <div className="section-container z-10 pt-20">
         <div className="max-w-4xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal mb-6 leading-tight animate-fade-in">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accent-blue mb-6 leading-tight animate-fade-in">
             Transform Your Business with Safe, Strategic AI
           </h1>
           <p className="text-lg md:text-xl text-charcoal/80 mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>

@@ -51,7 +51,7 @@ const ContactSection = () => {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your name"
                   required
-                  className="w-full border-gray-200 focus:border-charcoal focus:ring-charcoal"
+                  className="w-full border-gray-200 focus:border-accent-pink focus:ring-accent-pink"
                 />
               </div>
               
@@ -66,7 +66,7 @@ const ContactSection = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="your.email@example.com"
                   required
-                  className="w-full border-gray-200 focus:border-charcoal focus:ring-charcoal"
+                  className="w-full border-gray-200 focus:border-accent-pink focus:ring-accent-pink"
                 />
               </div>
               
@@ -80,14 +80,14 @@ const ContactSection = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Tell me about your project or questions"
                   required
-                  className="w-full border-gray-200 focus:border-charcoal focus:ring-charcoal min-h-[150px]"
+                  className="w-full border-gray-200 focus:border-accent-pink focus:ring-accent-pink min-h-[150px]"
                 />
               </div>
               
               <Button 
                 type="submit" 
                 disabled={isSubmitting}
-                className="w-full bg-charcoal hover:bg-charcoal/90 text-white"
+                className="w-full bg-accent-pink hover:bg-accent-pink/90 text-white"
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
@@ -98,7 +98,7 @@ const ContactSection = () => {
           <div className="flex flex-col items-start justify-center animate-on-scroll">
             <div className="bg-light-gray p-8 rounded-lg w-full">
               <div className="flex items-center mb-6">
-                <Calendar className="h-6 w-6 text-charcoal mr-3" />
+                <Calendar className="h-6 w-6 text-accent-pink mr-3" />
                 <h3 className="text-xl font-semibold text-charcoal">Prefer a conversation?</h3>
               </div>
               <p className="text-charcoal/70 mb-6">
@@ -106,7 +106,7 @@ const ContactSection = () => {
               </p>
               <Button
                 onClick={() => window.open("https://calendly.com", "_blank")}
-                className="w-full bg-white border border-charcoal text-charcoal hover:bg-light-gray"
+                className="w-full bg-white border border-accent-pink text-accent-pink hover:bg-light-gray"
               >
                 Schedule a Consultation
               </Button>

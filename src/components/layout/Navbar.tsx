@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
-            <Link to="/" className="font-semibold text-xl text-charcoal">
+            <Link to="/" className="font-semibold text-xl text-accent-pink">
               Cognitive AI Consulting
             </Link>
           </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <Button
               onClick={() => scrollToSection("contact")}
-              className="bg-charcoal hover:bg-charcoal/90 text-white"
+              className="bg-accent-pink hover:bg-accent-pink/90 text-white"
             >
               Book a Consultation
             </Button>
@@ -128,7 +128,7 @@ const Navbar = () => {
             <div className="px-3 py-3">
               <Button
                 onClick={() => scrollToSection("contact")}
-                className="w-full bg-charcoal hover:bg-charcoal/90 text-white"
+                className="w-full bg-accent-pink hover:bg-accent-pink/90 text-white"
               >
                 Book a Consultation
               </Button>

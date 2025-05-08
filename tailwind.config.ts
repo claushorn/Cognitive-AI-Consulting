@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -66,6 +65,7 @@ export default {
 				charcoal: '#1A1F2C',
 				'light-gray': '#F6F6F7',
 				'accent-blue': '#33C3F0',
+				'accent-pink': '#D946EF', // Adding our new pinkish/dark-reddish color
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

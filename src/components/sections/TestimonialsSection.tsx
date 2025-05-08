@@ -12,13 +12,13 @@ const TestimonialsSection = () => {
         </p>
         
         {/* Placeholder for future testimonials */}
-        <Card className="border-none bg-white/50 backdrop-blur-sm shadow-sm max-w-3xl mx-auto animate-on-scroll">
+        <Card className="border-none bg-white/50 backdrop-blur-sm shadow-sm max-w-3xl mx-auto animate-on-scroll hover:shadow-md transition-shadow">
           <CardContent className="p-8 text-center">
             <p className="text-lg italic text-charcoal/70 mb-6">
               "Client testimonials will appear here. Share the impact of your AI consulting services on real businesses."
             </p>
             <div className="flex items-center justify-center">
-              <div className="h-12 w-12 rounded-full bg-light-gray"></div>
+              <div className="h-12 w-12 rounded-full bg-accent-blue/20"></div>
               <div className="ml-4 text-left">
                 <p className="font-medium text-charcoal">Client Name</p>
                 <p className="text-sm text-charcoal/60">Company & Position</p>

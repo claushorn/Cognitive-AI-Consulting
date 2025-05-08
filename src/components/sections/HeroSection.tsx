@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button 
               onClick={scrollToContact}
-              className="bg-accent-pink hover:bg-accent-pink/90 text-white text-lg px-8 py-6"
+              className="bg-dark-red hover:bg-dark-red/90 text-white text-lg px-8 py-6"
             >
               Book a Free Consultation
               <ArrowRight className="ml-2 h-5 w-5" />

@@ -65,7 +65,8 @@ export default {
 				charcoal: '#1A1F2C',
 				'light-gray': '#F6F6F7',
 				'accent-blue': '#33C3F0',
-				'accent-pink': '#D946EF', // Adding our new pinkish/dark-reddish color
+				'accent-pink': '#D946EF', // Keeping this for backward compatibility
+				'dark-red': '#ea384c', // Adding dark-red color
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

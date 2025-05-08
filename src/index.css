@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 287 90% 60%; /* Updated to match our pinkish color */
+    --primary: 357 83% 57%; /* Updated to match our dark-red color */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -54,7 +54,7 @@
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-semibold text-primary mb-8 md:mb-12;
+    @apply text-3xl md:text-4xl font-semibold text-accent-blue mb-8 md:mb-12;
   }
 
   .animate-on-scroll {

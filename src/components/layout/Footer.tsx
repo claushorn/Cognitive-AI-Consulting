@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="md:flex md:items-center md:justify-between">
           <div className="space-y-4 md:space-y-6">
             <h3 className="text-lg font-medium text-charcoal">
-              Cognitive AI Consulting
+              Agentic AI Consulting
             </h3>
             <p className="text-sm text-charcoal/70 max-w-md">
               Helping organizations unlock the power of AI safely and strategically 
@@ -23,7 +23,7 @@ const Footer = () => {
             <h4 className="text-sm font-semibold text-charcoal mb-3">Connect</h4>
             <div className="flex space-x-3">
               <a 
-                href="mailto:contact@cognitiveaiconsulting.com" 
+                href="mailto:contact@agenticaiconsulting.com" 
                 className="text-charcoal/70 hover:text-charcoal transition-colors"
                 aria-label="Email"
               >
@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-200 md:flex md:items-center md:justify-between">
           <p className="text-sm text-charcoal/60">
-            &copy; {currentYear} Cognitive AI Consulting. All rights reserved.
+            &copy; {currentYear} Agentic AI Consulting. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-sm text-charcoal/60 hover:text-charcoal/80 transition-colors">

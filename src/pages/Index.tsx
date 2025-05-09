@@ -13,7 +13,7 @@ import { setupAnimations } from "@/utils/animations";
 const Index = () => {
   useEffect(() => {
     // Update document title and meta description for SEO
-    document.title = "Cognitive AI Consulting | Strategic AI Advisory Services";
+    document.title = "Agentic AI Consulting | Strategic AI Advisory Services";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert AI consulting services helping organizations unlock the power of AI safely and strategically. Specialized in AI strategy, agent-based AI solutions, and interpretable AI.');

@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
             <Link to="/" className="font-semibold text-xl text-dark-red">
-              Cognitive AI Consulting
+              Agentic AI Consulting
             </Link>
           </div>
 

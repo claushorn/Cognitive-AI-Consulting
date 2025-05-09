@@ -1,7 +1,6 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -12,44 +11,41 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-white overflow-hidden">
-      {/* Abstract background pattern */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute -top-20 -right-20 w-96 h-96 bg-light-gray rounded-full opacity-30"></div>
-        <div className="absolute top-1/3 -left-20 w-80 h-80 bg-light-gray rounded-full opacity-20"></div>
-        <div className="absolute -bottom-40 right-1/3 w-[30rem] h-[30rem] bg-light-gray rounded-full opacity-25"></div>
-        
-        {/* Grid dots pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="grid grid-cols-12 h-full w-full">
-            {Array.from({ length: 144 }).map((_, i) => (
-              <div key={i} className="relative">
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-1 bg-charcoal rounded-full"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="section-container z-10 pt-20">
-        <div className="max-w-4xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accent-blue mb-6 leading-tight animate-fade-in">
-            Transform Your Business with Safe, Strategic AI
+    <section className="relative bg-gradient-to-b from-white to-light-gray pt-32 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center md:text-left md:max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-charcoal tracking-tight mb-6">
+            <span className="text-dark-red">Agentic AI</span> Strategic Advisory
           </h1>
-          <p className="text-lg md:text-xl text-charcoal/80 mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Advisory and implementation services from a world-class AI expert. 
-            Navigate the future with confidence and clarity.
+          <p className="text-lg md:text-xl text-charcoal/80 mb-8 max-w-2xl mx-auto md:mx-0">
+            We help organizations unlock the transformative power of AI
+            safely and strategically with expert guidance and implementation services.
           </p>
-          <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <Button 
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <Button
               onClick={scrollToContact}
               className="bg-dark-red hover:bg-dark-red/90 text-white text-lg px-8 py-6"
             >
-              Book a Free Consultation
-              <ArrowRight className="ml-2 h-5 w-5" />
+              Book a Consultation
+            </Button>
+            <Button
+              variant="outline"
+              className="border-dark-red text-dark-red hover:bg-dark-red/10 text-lg px-8 py-6"
+              onClick={() => {
+                const expertiseSection = document.getElementById("expertise");
+                if (expertiseSection) {
+                  expertiseSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Learn More
             </Button>
           </div>
         </div>
+      </div>
+      
+      <div className="absolute bottom-0 right-0 w-1/3 h-full bg-contain bg-no-repeat bg-right-bottom opacity-10 hidden lg:block" 
+           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1677442135436-38fc0f6002e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800')" }}>
       </div>
     </section>
   );

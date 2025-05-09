@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,9 +15,8 @@ const ContactSection = () => {
   const [emailJSInitialized, setEmailJSInitialized] = useState(false);
 
   useEffect(() => {
-    // Initialize EmailJS with your public key
-    // Using a hardcoded service ID for this example
-    emailjs.init("public_key"); // Replace with your actual public key
+    // Initialize EmailJS with the provided public key
+    emailjs.init("hs7xcj68ebtaoMKc2");
     setEmailJSInitialized(true);
   }, []);
 
@@ -45,8 +43,8 @@ const ContactSection = () => {
       };
 
       await emailjs.send(
-        "service_id", // Replace with your EmailJS service ID
-        "template_id", // Replace with your EmailJS template ID
+        "service_liw0wzk",
+        "template_1ryfm2q",
         templateParams
       );
 
